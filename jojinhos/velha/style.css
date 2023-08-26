@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway";
+}
+
+h2 {
+    margin-top: -5px;
+    text-align: center;
+}
+
+#telaEscura {
+    width: 100%;
+    height: 100%;
+    opacity: 0.95;
+    position: absolute;
+    color: white;
+    display: none;
+    background-color: black;
+    padding-top: 100px;
+}
+
+.containerJogo {
+    margin: 0 auto;
+    max-width: 240px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(199, 195, 187);
+    border: 3px solid black;
+}
+
+.gridGame {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.celula {
+    width: 75px;
+    height: 65px;
+    font-size: 30pt;
+    margin: 4px 2px;
+    font-weight: 300;
+    padding-top: 10px;
+    border-radius: 3px;
+    text-align: center;
+    background-color: white;
+}
